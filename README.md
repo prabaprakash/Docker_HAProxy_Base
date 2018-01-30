@@ -1,5 +1,5 @@
 Haproxy for Docker Containers  
-
+![alt text](https://github.com/prabaprakash/Docker_HAProxy_Base/raw/master/Digrams/Haproxy.png)
 Steps:
 
 1. Create Isolated Network for docker
