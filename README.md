@@ -17,7 +17,7 @@ networks:
 
 4. add the subdomain config & container config in haproxy config for redirect subdomain route to docker_container_a:8080
 
-`
+``
 defaults
   mode http  
   timeout connect 5s
@@ -39,5 +39,5 @@ backend sub2_nodes
   stick-table type ip size 200k expire 30m
   stick on src
   server node1 docker_container_a:8080 check
-`
+``
     
