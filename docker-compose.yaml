@@ -8,8 +8,8 @@ services:
      - "80:80"
     environment:
       - ENV = "linux"
-#networks:
-  #default:
+networks:
+  default:
      # Use a custom driver
-     #external:
-     # name: isolated_network
+     external:
+      name: isolated_network
